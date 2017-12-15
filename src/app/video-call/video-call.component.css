@@ -22,16 +22,17 @@ body, html {
     width: 150px;
     height: 150px;
     z-index: 100;
+}
+
+#publisher.div {
     border: 3px solid white;
     border-radius: 3px;
-    position: fixed;
-    bottom: 0;
-    right: 0;   
 }
 
 #subscriber-child div.OT_root{
     position: relative;
     min-width: 150px;
     min-height: 150px;
-    float:left !important;    
+    float:left !important;  
+    margin: 10px;  
 }
